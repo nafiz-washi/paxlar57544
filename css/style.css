@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* top_header start */
+
+.top_header{
+
+background: #efefef;
+
+padding: 0;
+
+color: #7f7f7f;
+
+padding: 10px;
+
+margin: 0;
+}
+.top_header p{
+    
+padding: 0;
+    
+margin: 0;
+    
+font-size: 16px;
+}
+.top_list ul{
+
+list-style: none;
+
+display: flex;
+
+padding: 0;
+
+justify-content: space-between;
+
+margin: 0;
+}
+.top_list ul li a{
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: #7f7f7f;
+    
+font-size: 16px;
+}
+
+/* top_header end */
+
+ /* header start */
+
+.navbar{
+    padding: 0;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #161616;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #161616;
+}
+.opt {
+    padding: 0;
+    padding: 20px 0px;
+}
+.btn_join{
+    background: #f78f2f;
+    color: #fff;
+    padding: 0;
+    padding: 7px 15px;
+    margin-left: 67px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .1s all ease-in-out;
+}
+.btn_join:hover{
+    color: #fff;
+    background-color: #d67417;
+}
+
+ /* header end */
+
+ /* banner start */
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.highted {
+    min-height: 86vh;
+}
+.banner h1{
+
+color: #fff;
+
+font-size: 64px;
+
+font-weight: 600;
+
+text-transform: capitalize;
+}
+.users{
+
+width: 90%;
+
+color: #fff;
+
+margin: auto;
+
+padding: 80px 0px 60px 0px;
+}
+.users_info h5, .users_info h6{
+    font-size: 18px;
+}
+.btn_joined{
+    background: #f78f2f;
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+    border: 1px solid #f78f2f;
+    padding: 8px 32px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn_contact{
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 8px 32px;
+    background: transparent;
+    border: 1px solid #f78f2f;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn_contact:hover{
+    background-color: #f78f2f;
+    color: #fff;
+}
+.btn_joined:hover{
+    background: transparent;
+    color: #fff;
+}
+
+/* banner end */
+
+/* info start */
+
+.info{
+    padding: 80px 0px;
+}
+.info_list {
+    padding: 50px 10px;
+    box-shadow: 0px 0px 1px black;
+    text-transform: capitalize;
+    margin-left: 40px;
+    position: relative;
+    z-index: 0;
+}
+.info_list:hover{
+    background-image: url(../images/icon_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info_list:hover i, .info_list:hover h4, .info_list:hover p{
+    color: #fff;
+}
+.info_list::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2b522+1,e46602+99&0.9+0,0.9+100 */
+background: -moz-linear-gradient(top,  rgba(226,181,34,0.9) 0%, rgba(226,181,34,0.9) 1%, rgba(228,102,2,0.9) 99%, rgba(228,102,2,0.9) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(226,181,34,0.9) 0%,rgba(226,181,34,0.9) 1%,rgba(228,102,2,0.9) 99%,rgba(228,102,2,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(226,181,34,0.9) 0%,rgba(226,181,34,0.9) 1%,rgba(228,102,2,0.9) 99%,rgba(228,102,2,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2b522', endColorstr='#e6e46602',GradientType=0 ); /* IE6-9 */
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    z-index: -1;  
+}
+.info_list:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.info_list i {
+    color: #f78f2f;
+    font-size: 70px;
+    padding-bottom: 18px;
+}
+.info_list h4{ 
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.info_list p{
+    font-size: 14px;
+}
+
+
+/* info end */
+
+
+/* mid_title start*/
+
+.mid_title {
+    padding: 50px 0px;
+}
+.title h1{
+    font-size: 34px;
+    text-transform: capitalize;
+}
+.title p{
+
+text-transform: capitalize;
+
+font-size: 16px;
+
+padding: 10px 0px;
+}
+.title span{
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: #f78f2f;
+    transition: .4s all ease-in-out;
+    margin: auto;
+}
+.icon_dt:hover span{
+    width: 70px;
+}
+.icon_menu {
+    padding: 70px 0px;
+}
+.icon_menu h3{
+
+text-transform: capitalize;
+
+font-weight: 600;
+
+font-size: 27px;
+}
+.icon_menu p{
+padding-top: 5px;
+text-transform: capitalize;
+
+font-size: 14px;
+}
+.icon_img{
+padding-bottom: 10px;
+}
+
+.btn_view{
+    color: #7f7f7f;
+    padding: 0;
+    font-size: 16px;
+    padding: 8px 32px;
+    background: transparent;
+    border: 1px solid #7f7f7f;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 50px 0px;
+}
+.btn_view:hover{
+    background-color: #7f7f7f;
+    color: #fff;
+}
+
+
+/* mid_title end*/
+
+
+/* phone_section start*/
+
+.phone_section{
+    padding: 50px 0px;
+    background-image: url(../images/phone_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.iphone {
+    position: absolute;
+    left: 12%;
+    bottom: 0%;
+}
+.phone_title h1{
+    color: #fff;
+}
+.phone_title span{
+    margin: 0;
+}
+.phone_section:hover span{
+    width: 70px;
+}
+.phone_list{
+    padding: 50px 0px;
+}
+.phone_list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.phone_list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0px;
+}
+.box{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #f78f2f;
+    transform: rotate(45deg);
+    border-radius: 4px;
+}
+.list_info{
+    
+color: #fff;
+    
+width: 84%;
+}
+
+/* phone_section end*/
+
+
+/* numbers start*/
+
+.numbers{
+    background-color: #f78f2f;
+}
+.number_items{
+
+text-align: center;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 30px 0px;
+}
+.number_items h1{
+
+    font-size: 63px;
+}
+.number_items h3{
+    font-size: 19px;
+}
